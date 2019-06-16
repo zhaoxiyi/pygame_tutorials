@@ -7,7 +7,11 @@
 You are using pip version 19.0.x, however version 19.x.x is available.
 You should consider upgrading via the 'pip install --upgrade pip' command.
 ```
-这是python工具在告诉你，全世界都更新了python的新版本和新能力，可是你的电脑还没有。你要和全世界使用相同的程序框架你就需要更新你的pip3工具。 那么在刚才的那个Terminal窗口里面再输入一行 pip3 install --upgrade pip 等到进度条完成。你已经和全世界同步了。现在你再安装pygame，就是执行刚才我们想做的 pip3 install pygame 就可以安装最新的pygame库了。
+这是python工具在告诉你，全世界都更新了python的新版本和新能力，可是你的电脑还没有。你要和全世界使用相同的程序框架你就需要更新你的pip3工具。 那么在刚才的那个Terminal窗口里面再输入一行 
+```
+pip3 install --upgrade pip 
+```
+等到进度条完成。你已经和全世界同步了。现在你再安装pygame，就是执行刚才我们想做的 pip3 install pygame 就可以安装最新的pygame库了。
 
 ## 第二步：选择专门给你准备的特殊分支
 电脑上有了有了pygame，你就可以在程序里使用pygame库了。现在我们在你的son分支里面建立第一个程序吧，按之前介绍的在 VSCode 里面分支图标按钮里，点击 pygame_tutorials 后面属于这个程序的分支小图标，就会看到有master，有son，还有+号，你点击 son 就会转向专门属于你的分支。
